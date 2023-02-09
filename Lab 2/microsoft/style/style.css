@@ -1,0 +1,220 @@
+body{
+    padding:0 76px;
+}
+header{
+    height:54px;
+    display:flex;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:13px;
+    color:#262626;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width:calc(100% - 137px);
+}
+.logo{
+    width:137px;
+    height:53px;
+    margin-top:1px;
+    padding:16px 6px 16px 10px;
+}
+.menu{
+    height:54px;
+    width:307px;
+    display:flex;
+    align-items:center;
+
+}
+.menu span{
+    margin-top:3px;
+    margin-right:9px;
+    margin-left:9px;
+    border-bottom:3px solid #fff;
+    line-height:16px;
+}
+.menu span:hover{
+    border-bottom:3px solid #262626; 
+}
+.menu span:first-child{
+    margin-left:0px;
+}
+.menu1{
+    /* width:300px; */
+    height:54px;
+    display:flex;
+    align-items: center;
+}
+.microsoft-projects{
+    position: relative;
+    margin-top:3px;
+    margin-right:45px;
+}
+.microsoft-projects img{
+    position:absolute;
+    top:45%;
+    left:103%;
+}
+.microsoft-projects span{
+    margin-top:3px;
+    border-bottom:3px solid #fff;
+    line-height:16px;
+}
+.microsoft-projects span:hover{
+    border-bottom:3px solid #262626; 
+}
+.search{
+    position: relative;
+    margin-top:5px;
+    margin-right:45px;
+}
+.search span{
+    margin-top:3px;
+    border-bottom:3px solid #fff;
+    line-height:16px;
+}
+.search span:hover{
+    border-bottom:3px solid #262626; 
+}
+.search img {
+    position: absolute;
+    left:110%;
+}
+.log-in{
+    position:relative;
+    margin-top:6px;
+    margin-right:50px;
+}
+.log-in img{
+    position: absolute;
+    top:-80%;
+    left:125%;
+}
+section{
+    height:511px;
+    background-image: url('../img/imgonline-com-ua-Resize-6hZ3xtDLpETEJ.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:0px 83px;
+}
+.main-slider{
+    display:flex;
+    align-items: center;
+    height:100%;
+}
+.inside{
+    width:520px;
+    height:199.5px;
+}
+.inside h1{
+    color:#fff;
+    font-size: 34px;
+    line-height: 40px; 
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:600;   
+}
+.inside h2{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;    
+    color:#fff;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.inside button{
+    position:relative;
+    padding:8px 10px;
+    padding-left:0;
+    width:262.15px;
+    background-color: #fff;
+    color:#000;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    height:39.5;
+    border:2px solid transparent;
+    box-shadow: 0 4px 8px 0 transparent;
+    font-weight: 600;
+    transition:.2s;
+    padding-bottom:10px;
+}
+.inside button span{
+    margin-right:6px;
+    border-bottom:3px solid #fff;
+    transition:.2s;
+}
+.inside button img{
+    position: absolute;
+    top:27%;
+    transition:.2s;
+}
+.inside button:hover span{
+    margin-right:12px;
+    border-bottom:3px solid #000;
+    transition:.2s;
+}
+.inside button:hover{
+    background-color:#e6e6e6;
+}
+.blocks{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:48px;
+    margin-bottom:40px;
+}
+.block{
+    width:324px;
+}
+.block img{
+    margin-bottom:37px;
+    transition:.2s ;
+}
+h3{ 
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    opacity: .95;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+p{  
+    margin-top:2px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding-right:12px;
+    line-height:1.35;
+}
+h4 span{
+    font-weight:600;
+    position: relative;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height:1.3;
+    font-size:15px;
+    border-bottom:3px solid #fff;
+    color:#0067b8;
+    transition: .2s;
+    margin-right:45px;
+}
+h4 {
+    margin-top:12px;
+}
+h4 img{
+    width:9px;
+    position: absolute;
+    left:108%;
+    top:25%;
+    transition: .2s;
+}
+h4 span:hover{
+    transition: .2s;
+    border-bottom:3px solid #0067b8;
+}
+h4 span:hover img{
+    left:112%;
+}
+.block:hover img{
+    opacity:0.8;
+    transition: .2s;
+}
+

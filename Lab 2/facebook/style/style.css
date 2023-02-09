@@ -1,0 +1,221 @@
+body{
+    width:1519px;
+    height:878px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.upper-side {
+    background-color:#f0f2f5;
+    width:100%;
+    height:648px;
+    padding-top:72px;
+}
+.upper-side-inner{
+    height:536px;
+    display: flex;
+    justify-content: center;
+}
+.logo-item{
+    height:100%;
+    width:980px;
+    padding:20px 0;
+    display:flex;
+}
+.facebook-part{
+    width:580px;
+    height:266px;
+}
+.facebook-part-first{
+    height:182px;
+    padding-top:112px;
+}
+.facebook-part-first img {
+    height:106px;
+    margin:-20px;
+    margin-left:-28px;
+    margin-top:-28px;
+}
+.facebook-part-first div{
+    margin-top:10px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.login-signup-part{
+    width:396px;
+    height:496px;
+}
+.login-signup-div{
+    margin-top:40px;
+    width:396px;
+    height:456px;
+}
+.login-signup-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    height:349px;
+    padding-bottom:0px;
+}
+.write-here{
+    height:22px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius:6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;   
+    margin-bottom:12px;     
+}
+input[type=text]:focus {
+    outline:0;
+    border: 1px solid #0089d0; 
+    color:#dddfe2;
+}
+.write-here:focus{
+    color:#dddfe2;
+}
+#first{
+    margin-top:-4px;
+}
+.button{
+    margin-top:4px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 364px;
+    height:48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:600;
+    transition: .2s;
+}
+.button:hover{
+    background-color: #166fe5;
+    border-color: #166fe5;
+    transition: .2s;
+}
+.forgot{
+    margin-top:2px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.bar{
+    width:364px;
+    height:1px;
+    background-color:#dddfe2 ;
+    margin-top:23px;
+}
+.create{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:48px;
+    font-size: 17px;
+    font-weight:600;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    color:#fff;
+    width:192.5px;
+    margin-top:25.5px;
+    transition: .2s;
+}
+.create:hover{
+    transition: .2s;
+    background-color:#36a420 ;
+    border-color:#36a420;
+}
+.business{
+    margin-top:30.5px;
+    display:flex;
+    justify-content: center;
+    font-size:14px;
+    font-weight:600px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+}
+.bold {
+    font-weight:bold;
+
+}
+.bold:hover {
+    text-decoration: underline;
+}
+footer{
+    height:178px;
+    display:flex;
+    justify-content: center;
+    font-size:12px;
+    color:#737373;
+}
+.down-side{
+    width:980px;
+}
+.language-list{
+    margin-top:27px;
+    font-size:12px;
+    display: flex;
+    align-items:center;
+    height:20px;
+    margin-bottom:8px;
+}
+.language-list span{
+    margin-right:10px;
+}
+.language-list span button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height:20px;
+    border-radius:2px;
+    border:1px solid #ccd0d5;
+    background-color: #f5f6f7;
+    transition: .2s;
+}
+.language-list span button:hover{
+    background-color:#ebedf0;
+    transition: .2s;
+}
+.language-list span:hover{
+    text-decoration: underline;
+}
+.footer-bar{
+    height:0.5px;
+    background-color:#dddfe2 ;
+    margin-bottom:8px;
+}
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-list span{
+    height:19.2px;
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+}
+#terms{
+    margin-right:0;
+}
+.service-list span:hover{
+    text-decoration: underline;
+}
