@@ -1,0 +1,30 @@
+<div *ngFor="let product of products">
+  <div *ngIf = "product.isActive && (product.categoryId == product.currentCategory || product.currentCategory == -1)">
+  <h3>
+    <a
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]"
+    >
+      {{ product.name }}
+    </a>
+  </h3>
+  <img  class = 'bro' src="{{ product.image1 }}" width="140px" />
+  <img  class = "bro" src="{{ product.image2 }}" width="140px" />
+  <img  class = "bro" src="{{ product.image3 }}" width="140px" />
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+  <img src="{{product.rating}}" width= "100px">
+  <br>
+  <br>
+  <a href="https://telegram.me/share/url?url={{ product.url }}">
+    <button>Share with telegram</button>
+  </a>
+
+  <button id="lol" type="button" (click)="share()">Share</button>
+  <button id="lol" type="button" (click)="delete(product)">Delete</button>
+  <button id="lol" type="button" (click)="like(product)">Like</button>
+  <br>
+  <p>Likes : {{product.likes}}</p>
+  <app-product-alerts [product]="product" (notify)="onNotify()">
+  </app-product-alerts>
+</div>
+</div>

@@ -1,0 +1,323 @@
+export interface Product {
+  id: number;
+  name: string;
+  price: number;
+  description: string;
+  url: string;
+  image1: string;
+  image2: string;
+  image3: string;
+  rating: string;
+  isActive:boolean;
+  likes:number;
+  categoryId:number;
+  currentCategory:number;
+}
+export const products = [
+  {
+    id: 1,
+    name: 'Lenovo IdeaPad 3 11 Chromebook Laptop, 11.6" HD Display, Intel Celeron N4020, 4GB RAM, 64GB Storage, Intel UHD Graphics 600, Chrome OS',
+    price: 188.0,
+    description: `No setup required. Log in to your Chromebook laptop with your Google account and you're ready to go. Easy access to collaborative tools on G Suite and the full library of apps on Google Play`,
+    url: `https://https://www.amazon.com/Lenovo-Chromebook-Processor-Graphics-82BA0003US/dp/B087YW8FQB/ref=sr_1_3?qid=1647091689&s=computers-intl-ship&sr=1-3`,
+    image1: `https://m.media-amazon.com/images/I/71XIwK5G75L._AC_SX466_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/61DBhNhTpYL._AC_SX466_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/71+YKl8hMjL._AC_SX466_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/1star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:1,
+    currentCategory:-1
+  },
+  {
+    id: 2,
+    name: 'Tablet with Keyboard 5G Dual Wi-Fi Android 10.0, AOYODKG Tablet 10 inch 1920x1200 HD IPS, 4GB RAM, 64GB ROM, Dual Camera, Bluetooth,GPS,Type-C,Include Keyboard,Mouse,Tablet Case and More (Gold)',
+    price: 138.0,
+    description: `【More practical accessories】 Extra accessories gift: Standard accessories package: 10.1-inch tablet, protective leather case, protective film (attached), charger, type-C charging cable, instruction manual Additional accessories: wireless mouse, Bluetooth keyboard, OTG adapter, With the accessories we give away, you can easily turn your tablet into a laptop for office work. Suitable for gifts.`,
+    url: `https://www.amazon.com/Android-Keyboard-Quad-Core-Bluetooth-Certified/dp/B092ZPTCZG/ref=sr_1_2_sspa?qid=1647108449&s=computers-intl-ship&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRU5ONkpGTlJERjJGJmVuY3J5cHRlZElkPUEwOTkzNzExM1A3VTk3VTJYUDBJMCZlbmNyeXB0ZWRBZElkPUEwNDgyODE1MzYxWjE2UTJVOVY4WSZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl`,
+    image1: `https://m.media-amazon.com/images/I/71-N2XDfn-S._AC_SX466_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/71zqVWO6MsL._AC_SX466_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/71RVaZfODtL._AC_SX466_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:1,
+    currentCategory:-1
+  },
+  {
+    id: 3,
+    name: 'Tablet with Keyboard 5G Dual Wi-Fi Android 10.0, AOYODKG Tablet 10 inch 1920x1200 HD IPS, 4GB RAM, 64GB ROM, Dual Camera, Bluetooth,GPS,Type-C,Include Keyboard,Mouse,Tablet Case and More (Gold)',
+    price: 138.0,
+    description: `【More practical accessories】 Extra accessories gift: Standard accessories package: 10.1-inch tablet, protective leather case, protective film (attached), charger, type-C charging cable, instruction manual Additional accessories: wireless mouse, Bluetooth keyboard, OTG adapter, With the accessories we give away, you can easily turn your tablet into a laptop for office work. Suitable for gifts.`,
+    url: `https://www.amazon.com/Android-Keyboard-Quad-Core-Bluetooth-Certified/dp/B092ZPTCZG/ref=sr_1_2_sspa?qid=1647108449&s=computers-intl-ship&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRU5ONkpGTlJERjJGJmVuY3J5cHRlZElkPUEwOTkzNzExM1A3VTk3VTJYUDBJMCZlbmNyeXB0ZWRBZElkPUEwNDgyODE1MzYxWjE2UTJVOVY4WSZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl`,
+    image1: `https://m.media-amazon.com/images/I/71-N2XDfn-S._AC_SX466_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/71zqVWO6MsL._AC_SX466_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/71RVaZfODtL._AC_SX466_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:1,
+    currentCategory:-1
+  },
+  {
+    id: 4,
+    name: 'Tablet with Keyboard 5G Dual Wi-Fi Android 10.0, AOYODKG Tablet 10 inch 1920x1200 HD IPS, 4GB RAM, 64GB ROM, Dual Camera, Bluetooth,GPS,Type-C,Include Keyboard,Mouse,Tablet Case and More (Gold)',
+    price: 148.0,
+    description: `【More practical accessories】 Extra accessories gift: Standard accessories package: 10.1-inch tablet, protective leather case, protective film (attached), charger, type-C charging cable, instruction manual Additional accessories: wireless mouse, Bluetooth keyboard, OTG adapter, With the accessories we give away, you can easily turn your tablet into a laptop for office work. Suitable for gifts.`,
+    url: `https://www.amazon.com/Android-Keyboard-Quad-Core-Bluetooth-Certified/dp/B092ZPTCZG/ref=sr_1_2_sspa?qid=1647108449&s=computers-intl-ship&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRU5ONkpGTlJERjJGJmVuY3J5cHRlZElkPUEwOTkzNzExM1A3VTk3VTJYUDBJMCZlbmNyeXB0ZWRBZElkPUEwNDgyODE1MzYxWjE2UTJVOVY4WSZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl`,
+    image1: `https://m.media-amazon.com/images/I/71-N2XDfn-S._AC_SX466_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/71zqVWO6MsL._AC_SX466_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/71RVaZfODtL._AC_SX466_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/3star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:1,
+    currentCategory:-1
+  },
+  {
+    id: 5,
+    name: 'Tablet with Keyboard 5G Dual Wi-Fi Android 10.0, AOYODKG Tablet 10 inch 1920x1200 HD IPS, 4GB RAM, 64GB ROM, Dual Camera, Bluetooth,GPS,Type-C,Include Keyboard,Mouse,Tablet Case and More (Gold)',
+    price: 198.0,
+    description: `【More practical accessories】 Extra accessories gift: Standard accessories package: 10.1-inch tablet, protective leather case, protective film (attached), charger, type-C charging cable, instruction manual Additional accessories: wireless mouse, Bluetooth keyboard, OTG adapter, With the accessories we give away, you can easily turn your tablet into a laptop for office work. Suitable for gifts.`,
+    url: `https://www.amazon.com/Android-Keyboard-Quad-Core-Bluetooth-Certified/dp/B092ZPTCZG/ref=sr_1_2_sspa?qid=1647108449&s=computers-intl-ship&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRU5ONkpGTlJERjJGJmVuY3J5cHRlZElkPUEwOTkzNzExM1A3VTk3VTJYUDBJMCZlbmNyeXB0ZWRBZElkPUEwNDgyODE1MzYxWjE2UTJVOVY4WSZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl`,
+    image1: `https://m.media-amazon.com/images/I/71-N2XDfn-S._AC_SX466_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/71zqVWO6MsL._AC_SX466_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/71RVaZfODtL._AC_SX466_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:1,
+    currentCategory:-1
+  },
+  {
+    id: 6,
+    name: 'Total Wireless Blu View 2 4G LTE Prepaid Smartphone (Locked) - Black - 32GB - Sim Card Included - CDMA',
+    price: 135.0,
+    description: `CARRIER: This phone is locked to Total Wireless, which means this device can only be used on the Total Wireless wireless network.`,
+    url: `https://www.amazon.com/Total-Wireless-Prepaid-Smartphone-Locked/dp/B08J5L3HHT/ref=sr_1_1?keywords=smartphone&qid=1647154598&sr=8-1`,
+    image1: `https://m.media-amazon.com/images/I/41LvNVPW-TL._AC_SR38,50_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81CW1VjhtVL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/31jSBgjkamL._AC_SR38,50_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/2star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:2,
+    currentCategory:-1
+  },
+  {
+    id: 7,
+    name: 'Total Wireless Blu View 2 4G LTE Prepaid Smartphone (Locked) - Black - 32GB - Sim Card Included - CDMA',
+    price: 135.0,
+    description: `CARRIER: This phone is locked to Total Wireless, which means this device can only be used on the Total Wireless wireless network.`,
+    url: `https://www.amazon.com/Total-Wireless-Prepaid-Smartphone-Locked/dp/B08J5L3HHT/ref=sr_1_1?keywords=smartphone&qid=1647154598&sr=8-1`,
+    image1: `https://m.media-amazon.com/images/I/41LvNVPW-TL._AC_SR38,50_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81CW1VjhtVL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/31jSBgjkamL._AC_SR38,50_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/3star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:2,
+    currentCategory:-1
+  },
+  {
+    id: 8,
+    name: 'Total Wireless Blu View 2 4G LTE Prepaid Smartphone (Locked) - Black - 32GB - Sim Card Included - CDMA',
+    price: 135.0,
+    description: `CARRIER: This phone is locked to Total Wireless, which means this device can only be used on the Total Wireless wireless network.`,
+    url: `https://www.amazon.com/Total-Wireless-Prepaid-Smartphone-Locked/dp/B08J5L3HHT/ref=sr_1_1?keywords=smartphone&qid=1647154598&sr=8-1`,
+    image1: `https://m.media-amazon.com/images/I/41LvNVPW-TL._AC_SR38,50_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81CW1VjhtVL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/31jSBgjkamL._AC_SR38,50_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:2,
+    currentCategory:-1
+  },
+  {
+    id: 9,
+    name: 'Total Wireless Blu View 2 4G LTE Prepaid Smartphone (Locked) - Black - 32GB - Sim Card Included - CDMA',
+    price: 135.0,
+    description: `CARRIER: This phone is locked to Total Wireless, which means this device can only be used on the Total Wireless wireless network.`,
+    url: `https://www.amazon.com/Total-Wireless-Prepaid-Smartphone-Locked/dp/B08J5L3HHT/ref=sr_1_1?keywords=smartphone&qid=1647154598&sr=8-1`,
+    image1: `https://m.media-amazon.com/images/I/41LvNVPW-TL._AC_SR38,50_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81CW1VjhtVL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/31jSBgjkamL._AC_SR38,50_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:2,
+    currentCategory:-1
+  },
+  {
+    id: 10,
+    name: 'Total Wireless Blu View 2 4G LTE Prepaid Smartphone (Locked) - Black - 32GB - Sim Card Included - CDMA',
+    price: 135.0,
+    description: `CARRIER: This phone is locked to Total Wireless, which means this device can only be used on the Total Wireless wireless network.`,
+    url: `https://www.amazon.com/Total-Wireless-Prepaid-Smartphone-Locked/dp/B08J5L3HHT/ref=sr_1_1?keywords=smartphone&qid=1647154598&sr=8-1`,
+    image1: `https://m.media-amazon.com/images/I/41LvNVPW-TL._AC_SR38,50_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81CW1VjhtVL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/31jSBgjkamL._AC_SR38,50_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/3star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:2,
+    currentCategory:-1
+  },
+  {
+    id: 11,
+    name: 'eureka NEU182B PowerSpeed Bagless Upright Vacuum Cleaner, Lite, Purple',
+    price: 87.99,
+    description: `Powerful vacuum cleaner The dynamic motor and brush roll can lift stubborn and heavy debris Plus the 12 6” wide nozzle cleans more with a quickness`,
+    url: `https://www.amazon.com/Eureka-PowerSpeed-Bagless-Upright-Cleaner/dp/B083C2DTKX/ref=sr_1_1?keywords=vacuum%2Bcleaner&qid=1647166398&sr=8-1&th=1`,
+    image1: `https://m.media-amazon.com/images/I/71UNMWowyhL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81yklHI6C6L._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/81wM9UU5PpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:3,
+    currentCategory:-1
+  },
+  {
+    id: 12,
+    name: 'eureka NEU182B PowerSpeed Bagless Upright Vacuum Cleaner, Lite, Purple',
+    price: 87.99,
+    description: `Powerful vacuum cleaner The dynamic motor and brush roll can lift stubborn and heavy debris Plus the 12 6” wide nozzle cleans more with a quickness`,
+    url: `https://www.amazon.com/Eureka-PowerSpeed-Bagless-Upright-Cleaner/dp/B083C2DTKX/ref=sr_1_1?keywords=vacuum%2Bcleaner&qid=1647166398&sr=8-1&th=1`,
+    image1: `https://m.media-amazon.com/images/I/71UNMWowyhL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81yklHI6C6L._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/81wM9UU5PpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:3,
+    currentCategory:-1
+  },
+  {
+    id: 13,
+    name: 'eureka NEU182B PowerSpeed Bagless Upright Vacuum Cleaner, Lite, Purple',
+    price: 87.99,
+    description: `Powerful vacuum cleaner The dynamic motor and brush roll can lift stubborn and heavy debris Plus the 12 6” wide nozzle cleans more with a quickness`,
+    url: `https://www.amazon.com/Eureka-PowerSpeed-Bagless-Upright-Cleaner/dp/B083C2DTKX/ref=sr_1_1?keywords=vacuum%2Bcleaner&qid=1647166398&sr=8-1&th=1`,
+    image1: `https://m.media-amazon.com/images/I/71UNMWowyhL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81yklHI6C6L._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/81wM9UU5PpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:3,
+    currentCategory:-1
+  },
+  {
+    id: 14,
+    name: 'eureka NEU182B PowerSpeed Bagless Upright Vacuum Cleaner, Lite, Purple',
+    price: 87.99,
+    description: `Powerful vacuum cleaner The dynamic motor and brush roll can lift stubborn and heavy debris Plus the 12 6” wide nozzle cleans more with a quickness`,
+    url: `https://www.amazon.com/Eureka-PowerSpeed-Bagless-Upright-Cleaner/dp/B083C2DTKX/ref=sr_1_1?keywords=vacuum%2Bcleaner&qid=1647166398&sr=8-1&th=1`,
+    image1: `https://m.media-amazon.com/images/I/71UNMWowyhL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81yklHI6C6L._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/81wM9UU5PpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:3,
+    currentCategory:-1
+  },
+  {
+    id: 15,
+    name: 'eureka NEU182B PowerSpeed Bagless Upright Vacuum Cleaner, Lite, Purple',
+    price: 87.99,
+    description: `Powerful vacuum cleaner The dynamic motor and brush roll can lift stubborn and heavy debris Plus the 12 6” wide nozzle cleans more with a quickness`,
+    url: `https://www.amazon.com/Eureka-PowerSpeed-Bagless-Upright-Cleaner/dp/B083C2DTKX/ref=sr_1_1?keywords=vacuum%2Bcleaner&qid=1647166398&sr=8-1&th=1`,
+    image1: `https://m.media-amazon.com/images/I/71UNMWowyhL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/81yklHI6C6L._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/81wM9UU5PpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/5star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:3,
+    currentCategory:-1
+  },
+  {
+    id: 16,
+    name: 'Artix CL750 Wired Headphones with Microphone and Volume Control, On Ear Stereo Noise Isolating Head Phones Corded with Adjustable, Foldable Headband for Computer, Laptop & Cell Phone (Turquoise/Gray)',
+    price: 25.49,
+    description: `Unlike other brands that are heavy, bulky and cause fatigue, our ergonomic design optimizes comfort, as our pillow soft light weight ear cushions sit snugly, ensuring enjoyment of your media all day long. Focus on your music and drown out annoying background noise with premium noise isolation, making Artix Lightweight WIRED Headphones perfect for your daily commutes through the noisy city. Our drivers are designed to deliver the best sound reproduction for all your needs.`,
+    url: `https://www.amazon.com/Isolating-Headphones-Microphone-Adjustable-Turquoise/dp/B087JWTWF9/ref=sr_1_2_sspa?keywords=headphones&qid=1647166598&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRjVEREhHNjNETkJYJmVuY3J5cHRlZElkPUEwODAxMzAyMlY5VDRHS0lTSVZIOCZlbmNyeXB0ZWRBZElkPUExMDQyODg3MTVJNURBSU1CWjVNSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1`,
+    image1: `https://m.media-amazon.com/images/I/81ibJQSANcL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/61h3v8QGfLL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/61n+LetFtpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:4,
+    currentCategory:-1
+  },
+  {
+    id: 17,
+    name: 'Artix CL750 Wired Headphones with Microphone and Volume Control, On Ear Stereo Noise Isolating Head Phones Corded with Adjustable, Foldable Headband for Computer, Laptop & Cell Phone (Turquoise/Gray)',
+    price: 25.49,
+    description: `Unlike other brands that are heavy, bulky and cause fatigue, our ergonomic design optimizes comfort, as our pillow soft light weight ear cushions sit snugly, ensuring enjoyment of your media all day long. Focus on your music and drown out annoying background noise with premium noise isolation, making Artix Lightweight WIRED Headphones perfect for your daily commutes through the noisy city. Our drivers are designed to deliver the best sound reproduction for all your needs.`,
+    url: `https://www.amazon.com/Isolating-Headphones-Microphone-Adjustable-Turquoise/dp/B087JWTWF9/ref=sr_1_2_sspa?keywords=headphones&qid=1647166598&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRjVEREhHNjNETkJYJmVuY3J5cHRlZElkPUEwODAxMzAyMlY5VDRHS0lTSVZIOCZlbmNyeXB0ZWRBZElkPUExMDQyODg3MTVJNURBSU1CWjVNSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1`,
+    image1: `https://m.media-amazon.com/images/I/81ibJQSANcL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/61h3v8QGfLL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/61n+LetFtpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:4,
+    currentCategory:-1
+  },
+  {
+    id: 18,
+    name: 'Artix CL750 Wired Headphones with Microphone and Volume Control, On Ear Stereo Noise Isolating Head Phones Corded with Adjustable, Foldable Headband for Computer, Laptop & Cell Phone (Turquoise/Gray)',
+    price: 25.49,
+    description: `Unlike other brands that are heavy, bulky and cause fatigue, our ergonomic design optimizes comfort, as our pillow soft light weight ear cushions sit snugly, ensuring enjoyment of your media all day long. Focus on your music and drown out annoying background noise with premium noise isolation, making Artix Lightweight WIRED Headphones perfect for your daily commutes through the noisy city. Our drivers are designed to deliver the best sound reproduction for all your needs.`,
+    url: `https://www.amazon.com/Isolating-Headphones-Microphone-Adjustable-Turquoise/dp/B087JWTWF9/ref=sr_1_2_sspa?keywords=headphones&qid=1647166598&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRjVEREhHNjNETkJYJmVuY3J5cHRlZElkPUEwODAxMzAyMlY5VDRHS0lTSVZIOCZlbmNyeXB0ZWRBZElkPUExMDQyODg3MTVJNURBSU1CWjVNSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1`,
+    image1: `https://m.media-amazon.com/images/I/81ibJQSANcL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/61h3v8QGfLL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/61n+LetFtpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:4,
+    currentCategory:-1
+  }, 
+  {
+    id: 19,
+    name: 'Artix CL750 Wired Headphones with Microphone and Volume Control, On Ear Stereo Noise Isolating Head Phones Corded with Adjustable, Foldable Headband for Computer, Laptop & Cell Phone (Turquoise/Gray)',
+    price: 25.49,
+    description: `Unlike other brands that are heavy, bulky and cause fatigue, our ergonomic design optimizes comfort, as our pillow soft light weight ear cushions sit snugly, ensuring enjoyment of your media all day long. Focus on your music and drown out annoying background noise with premium noise isolation, making Artix Lightweight WIRED Headphones perfect for your daily commutes through the noisy city. Our drivers are designed to deliver the best sound reproduction for all your needs.`,
+    url: `https://www.amazon.com/Isolating-Headphones-Microphone-Adjustable-Turquoise/dp/B087JWTWF9/ref=sr_1_2_sspa?keywords=headphones&qid=1647166598&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRjVEREhHNjNETkJYJmVuY3J5cHRlZElkPUEwODAxMzAyMlY5VDRHS0lTSVZIOCZlbmNyeXB0ZWRBZElkPUExMDQyODg3MTVJNURBSU1CWjVNSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1`,
+    image1: `https://m.media-amazon.com/images/I/81ibJQSANcL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/61h3v8QGfLL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/61n+LetFtpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:4,
+    currentCategory:-1
+  }, 
+  {
+    id: 20,
+    name: 'Artix CL750 Wired Headphones with Microphone and Volume Control, On Ear Stereo Noise Isolating Head Phones Corded with Adjustable, Foldable Headband for Computer, Laptop & Cell Phone (Turquoise/Gray)',
+    price: 25.49,
+    description: `Unlike other brands that are heavy, bulky and cause fatigue, our ergonomic design optimizes comfort, as our pillow soft light weight ear cushions sit snugly, ensuring enjoyment of your media all day long. Focus on your music and drown out annoying background noise with premium noise isolation, making Artix Lightweight WIRED Headphones perfect for your daily commutes through the noisy city. Our drivers are designed to deliver the best sound reproduction for all your needs.`,
+    url: `https://www.amazon.com/Isolating-Headphones-Microphone-Adjustable-Turquoise/dp/B087JWTWF9/ref=sr_1_2_sspa?keywords=headphones&qid=1647166598&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRjVEREhHNjNETkJYJmVuY3J5cHRlZElkPUEwODAxMzAyMlY5VDRHS0lTSVZIOCZlbmNyeXB0ZWRBZElkPUExMDQyODg3MTVJNURBSU1CWjVNSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1`,
+    image1: `https://m.media-amazon.com/images/I/81ibJQSANcL._AC_SX679_.jpg`,
+    image2: `https://m.media-amazon.com/images/I/61h3v8QGfLL._AC_SX679_.jpg`,
+    image3: `https://m.media-amazon.com/images/I/61n+LetFtpL._AC_SX679_.jpg`,
+    rating:'https://github.com/AlikhanKaliyev/SourceImg/blob/main/Source/4star.png?raw=true',
+    isActive:true,
+    likes:0,
+    categoryId:4,
+    currentCategory:-1
+  },
+];
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
